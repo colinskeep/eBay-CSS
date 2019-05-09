@@ -53,6 +53,8 @@
     #mainImage {
         position: relative;
         text-align: center;
+        width: 100%;
+        max-width: 1200px;
     }
     #productDescription {
         position: relative;

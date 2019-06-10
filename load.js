@@ -4,6 +4,6 @@ $(document).ready(function(){
 	var url = window.location.href;
 	$('.modal-header h3').text("Make an Offer for "+name);
 	//$('.modal-body').load(source);
-	console.log('444');
+	console.log('555');
 	//$('.modal-body').load(source,function(){$('#contact_question').val("I would like to make an offer for "+name+"\n("+url+")");});
 })

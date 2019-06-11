@@ -6,5 +6,5 @@ $(document).ready(function(){
 	//$('.modal-body').load(source);
 	console.log('555');
 	//$('.modal-body').load(source,function(){$('#contact_question').val("I would like to make an offer for "+name+"\n("+url+")");});
-	document.querySelector("#contact_question").value = 'Offer: \n For: '+name
+	document.querySelector("#contact_question").value = 'Offer: \nFor: '+name
 })

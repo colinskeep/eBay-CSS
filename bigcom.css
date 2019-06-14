@@ -1,0 +1,30 @@
+    .feature {
+        background-image: url(https://www.citizenwatch.com/on/demandware.static/Sites-citizen_US-Site/-/default/v1560484816238/images/sgc/shared/sprite-elements.png);
+        background-repeat: no-repeat;
+        background-size: 275px 250px;
+        display: block;
+        float: left;
+        width: 55px;
+        height: 55px;
+    }
+    .band {
+        background-position: 4px -193px;
+    }
+    .dial {
+        background-position: -116px -69px;
+    }
+    .case {
+        background-position: -55px -69px;
+    }
+    .caseMaterial {
+        background-position: -59px -130px;
+    }
+    .waterResistance {
+        background-position: -125px -130px;
+    }
+    .crystal {
+        background-position: -58px -192px;
+    }
+    .functions {
+        background-position: 4px -130px;
+    }

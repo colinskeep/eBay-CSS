@@ -254,8 +254,9 @@
       e.preventDefault()
       var $this = $(this).data('show', true)
       $('#' + $this.attr('data-controls-modal')).modal( $this.data() )
-      console.log(e);
-      console.log($this.attr('data-id'));
+      var name = $this.attr('data-id');
+      $('.modal-header h3').text("Make an Offer for "+name);
+	    document.querySelector("#contact_question").value = '\n\n\n\nFor: '+name
     })
   })
 

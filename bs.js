@@ -255,6 +255,7 @@
       var $this = $(this).data('show', true)
       $('#' + $this.attr('data-controls-modal')).modal( $this.data() )
       console.log(e);
+      console.log($this.attr('data-id'));
     })
   })
 

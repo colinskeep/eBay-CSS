@@ -254,7 +254,7 @@
       e.preventDefault()
       var $this = $(this).data('show', true)
       $('#' + $this.attr('data-controls-modal')).modal( $this.data() )
-      console.log(e.getAttribute('data-id'));
+      console.log(e);
     })
   })
 

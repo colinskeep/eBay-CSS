@@ -72,6 +72,7 @@
     }
     .row {
     display: flex;
+    flex-wrap: wrap;
     }
     .pull-left {
     width: 75%;

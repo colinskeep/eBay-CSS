@@ -72,22 +72,25 @@
     }
     .row {
     display: flex;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     }
     .pull-left {
-    width: 75%;
+        width: 75%;
     }
     .col-sm-3 {
-    width: 25%;
-    text-align: center;
+        width: 25%;
+        text-align: center;
     }
     div.col-sm-3 img {
-    height: 133.5px;
+        height: 133.5px;
     }
     .js__app__tabs__content {
     width: 90%;
-    margin-left: 5%;
+        margin-left: 5%;
     }
     .span6 {
-    max-width: 33%;
-    {
+        max-width: 33%;
+    }
+    h2 {
+        line-height: 27px;
+    }
